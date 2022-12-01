@@ -19,8 +19,7 @@ int main()
 	double num;
 	unsigned int deg;
 	cout << "Enter number: ";
-	cin >> num;
-	cout << "Enter degree: ";
+	cin >> num;cout << "Enter degree: ";
 	cin >> deg;
 	num = my_pow(num, deg);
 	cout << "Result: " << num;
